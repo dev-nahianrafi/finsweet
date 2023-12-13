@@ -1,0 +1,114 @@
+:root{
+    --popeins: 'Poppins', sans-serif;
+    --monorop: 'Manrope', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.common_btn{
+    padding: 16px 48px;
+    border: 2px solid rgba(244, 246, 252, 0.20); 
+    border-radius: 41px;
+    color: #FFF;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    transition: all linear 0.2s;
+}
+.common_btn:hover{
+    background-color: #FCD980;
+    color: #1B1C2B;
+}
+/* common end */
+#navbar{
+    padding: 32px 0;
+    background-color: #1C1E53;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+}
+.nav_logo{
+    width: 20%;
+}
+.nav_menu{
+    width: 60%;
+}
+.nav_menu ul{
+    display: flex;
+    column-gap: 32px;
+    justify-content: end;
+}
+.nav_menu ul li a{
+    color: #BBBBCB;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: capitalize;
+    transition: all linear 0.2s;
+}
+.nav_menu ul li a:hover{
+    color: #fff;
+}
+.nav_btn{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+/* nav end */
+/* banner start */
+#banner{
+    padding: 218px 0 128px 0;
+    background: #1C1E53;
+}
+.banner_wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+.banner_content h1{
+    width: 582px;
+    color: #fff;
+    font-family: var(--popeins);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+}
+.banner_content p{
+    color: #ffffffb1;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    width: 562px;
+    margin-top: 24px;
+}
+.banner_btn{
+    margin-top: 48px;
+    display: flex;
+    column-gap: 38px;
+}
+.banner_btn .common_btn:last-child{
+    border: transparent;
+}
+.banner_btn .common_btn i{
+    padding-left: 16px;
+}
+/* banner end */
