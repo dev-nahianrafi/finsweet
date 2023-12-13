@@ -112,6 +112,7 @@ a{
     padding-left: 16px;
 }
 /* banner end */
+/* work start */
 #work{
     padding: 128px 0;
     background-color: #F4F6FC;
@@ -136,14 +137,14 @@ a{
     width: 405px;
     margin: 16px 0;
 }
-.work_content a{
+.common_arow{
     color: #2405F2;
     font-family: var(--popeins);
     font-size: 18px;
     font-weight: 500;
     line-height: 32px; 
 }
-.work_content a i{
+.common_arow i{
     padding-left: 10px;
 }
 .work_item_wrapper{
@@ -176,3 +177,156 @@ a{
     font-weight: 400;
     line-height: 28px;
 }
+/* work end */
+/* card start */
+#cards{
+    padding: 128px 0;
+}
+.card_header{
+    display: flex;
+    column-gap: 690px;
+    align-items: center;
+}
+.cards_wrapper{
+    display: flex;
+    column-gap: 32px;
+}
+.cards_item1{
+    margin-top: 64px;
+    width: 843px;
+    height: 600px;
+    position: relative;
+}
+.cards_item1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.overly{
+    position: absolute;
+    height: 100%;
+    width: 0;
+    left: 0;
+    top: 0;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.4s;
+}
+.overly h3{
+    margin: 321px 35px 16px 48px;
+    width: 313px;
+    color: #FFF;
+    font-family: var(--popeins);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px; 
+}
+.overly p{
+    color:#FFF;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    width: 293px;
+    margin-left: 48px;
+    margin-bottom: 40px;
+}
+.bbh{
+    color:#FCD980;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    margin-left: 48px;
+}
+.bbh i{
+    padding-left: 10px;
+}
+.cards_item1:hover .overly{
+    opacity: 1;
+    visibility: visible;
+    width: 396px;
+}
+.cards_item2{
+    margin-top: 64px;
+}
+.cards2_item2_1{
+    margin-bottom: 32px;
+    width: 405px;
+    height: 284px;
+    position: relative;
+}
+.overly2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.4s;
+}
+.overly2 h3{
+    margin: 129px 36px 10px 56px;
+    width: 313px;
+    color: #FFF;
+    font-family: var(--popeins);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px; 
+}
+.overly2 .bbh{
+    margin-left: 56px;
+}
+.cards2_item2_1:hover .overly2{
+    opacity: 1;
+    visibility: visible;
+}
+.cards2_item2_1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.cards2_item1_2{
+    width: 405px;
+    height: 284px;
+    position: relative;
+}
+.overly3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.4s;
+}
+.overly3 h3{
+    margin: 129px 36px 10px 56px;
+    width: 313px;
+    color: #FFF;
+    font-family: var(--popeins);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px; 
+}
+.overly3 .bbh{
+    margin-left: 56px;
+}
+.cards2_item1_2:hover .overly3{
+    opacity: 1;
+    visibility: visible;
+}
+.cards2_item1_2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+/* card end */
