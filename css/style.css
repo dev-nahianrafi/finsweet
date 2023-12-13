@@ -112,3 +112,67 @@ a{
     padding-left: 16px;
 }
 /* banner end */
+#work{
+    padding: 128px 0;
+    background-color: #F4F6FC;
+}
+.work_wrapper{
+    display: flex;
+    column-gap: 142px;
+}
+.common_sub_header{
+    color:#282938;
+    font-family: var(--popeins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px; 
+}
+.work_content p{
+    color: #282938;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 405px;
+    margin: 16px 0;
+}
+.work_content a{
+    color: #2405F2;
+    font-family: var(--popeins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px; 
+}
+.work_content a i{
+    padding-left: 10px;
+}
+.work_item_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.work_item{
+    width: 303px;
+}
+.work_item:nth-child(3){
+    margin-top: 23px;
+}
+.work_item:nth-child(4){
+    margin-top: 23px;
+}
+.work_item h3{
+    margin: 16px 0 8px 0;
+    color:#282938;
+    font-family: var(--popeins);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px; 
+}
+.work_item p{
+    opacity: 0.7;
+    color: #282938;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
