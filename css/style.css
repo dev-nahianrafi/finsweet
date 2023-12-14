@@ -492,6 +492,9 @@ a{
 .faq_item:first-child{
     padding-top: 0;
 }
+.faq_item:last-child{
+    border-bottom: none;
+}
 .faq_info{
     display: flex;
     column-gap: 59px;
@@ -525,3 +528,106 @@ a{
     line-height: 36px;
 }
 /* faq end */
+/* email start */
+.email_wrapper{
+    display: flex;
+}
+.email_img{
+    height: 691px;
+    width: 656px;
+    overflow: hidden;
+    position: relative;
+}
+.email_img_overly{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(28, 30, 83, 0.50); 
+}
+.email_img_overly h3{
+    padding: 96px 96px 24px 96px;
+    color: #FFF;
+    font-family: var(--popeins);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+}
+.email_img_overly p{
+    color: #FFF;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0 96px;
+}
+.email_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.email_form{
+    width: 624px;
+    height: 691px;
+    background-color: #1C1E53;
+    padding: 96px 96px 48px 96px;
+}
+.email_form h3{
+    color: #FFF;
+    font-family: var(--popeins);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px; 
+}
+.email_form p{
+    color: #F4F6FC;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 432px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.email_form form input{
+    height: 64px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05); 
+    background-color: transparent;
+    margin-bottom: 16px;
+    color: #F4F6FC;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    text-transform: capitalize;
+    padding: 18px 0 18px 32px;
+}
+.email_form form button{
+    height: 64px;
+    width: 100%;
+    background-color: #FCD980;
+    border-radius: 41px;
+    border: none;
+    margin-top: 23px;
+    color: #1B1C2B;
+    font-family: var(--monorop);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.email_form .common_arow{
+    padding-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+/* email end */
