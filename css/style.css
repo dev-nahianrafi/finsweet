@@ -631,6 +631,7 @@ a{
     line-height: 32px;
 }
 /* email end */
+/* blog start */
 #blog{
     padding: 128px 0;
 }
@@ -688,3 +689,123 @@ a{
     font-weight: 500;
     line-height: 28px;
 }
+/* blog end */
+/* footer start */
+#footer{
+    padding: 100px 0 0 0;
+    background-color: #1C1E53;
+}
+.footer_upper_wrapper{
+    display: flex;
+    column-gap: 142px;
+}
+.footer_logo p{
+    color: #FFF;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    width: 399px;
+    opacity: 0.7;
+    padding: 22px 0 86px 0;
+}
+.logo_down{
+    width: 517px;
+    background-color: #FCD980;
+    padding: 18px 0 16px 37px;
+    display: flex;
+    column-gap: 29px;
+}
+.email h3{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.email h4{
+    color: #282938;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.8;
+}
+.call_us h3{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.call_us h4{
+    color: #282938;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.8;
+}
+.footer_text h3{
+    color: #FFF;
+    font-family: var(--popeins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px; 
+}
+.footer_text p{
+    color:#F4F6FC;
+    font-family: var(--popeins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 399px;
+    opacity: 0.8; 
+    padding: 14px 0 28px 0;
+}
+.icons{
+    display: flex;
+    column-gap: 26px;
+}
+.icons a i{
+    color: #fff;
+}
+#footer_down{
+    padding: 32px 0;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_contectss{
+    width: 241px;
+}
+.footer_contectss h3{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.footer_menu{
+    width: 968px;
+}
+.footer_menu ul{
+    display: flex;
+    justify-content: end !important;
+    column-gap: 32px;
+}
+.footer_menu ul li a{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+/* footer end */
